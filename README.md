@@ -35,7 +35,7 @@ Built for Termux (Android) and Linux, with features like MP3 conversion, playlis
 
 3. **Run the script:**
 
-**python matrix.py**
+``python matrix.py``
 
 > The script will check and install all dependencies automatically.
 
