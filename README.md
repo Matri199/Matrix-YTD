@@ -116,9 +116,10 @@ MIT License
 
 ## 👤 Author
 
-- Telegram: [@MatriXXXXXXXXX](https://t.me/MatriXXXXXXXXX)
-- WhatsApp: [@Angel](https://t.me/233593734312)
-- GitHub: [Matri199](https://github.com/Matri199)
+- Telegram: (https://t.me/MatriXXXXXXXXX)
+- WhatsApp:
+- (https://t.me/233593734312)
+- GitHub:(https://github.com/Matri199)
 
 ---
 
