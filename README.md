@@ -1,80 +1,121 @@
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=MATRIX%20YTD&fontSize=90&animation=fadeIn&fontAlignY=38&desc=YOUTUBE%20%7C%20TIKTOK%20%7C%20REELS%20%7C%20DOWNLOADER%20BY%20MATRIX!&descAlignY=51&descAlign=62" width="100%"/> </p> <p align="center"> <a href="https://github.com/Matri199/Matrix-YTD/stargazers"> <img alt="Stars" src="https://img.shields.io/github/stars/Matri199/Matrix-YTD?style=for-the-badge&color=ffb86c&labelColor=44475a"> </a> <a href="https://github.com/Matri199/Matrix-YTD/releases/latest"> <img alt="Releases" src="https://img.shields.io/github/v/release/Matri199/Matrix-YTD?style=for-the-badge&color=bd93f9&labelColor=44475a"> </a> <a href="https://github.com/Matri199/Matrix-YTD/actions"> <img alt="Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Matri199/Matrix-YTD/python.yml?style=for-the-badge&label=CI&color=50fa7b&labelColor=44475a"> </a> </p> <h2 align="left">📦 Installation (Termux/Linux/Mac)</h2>
-bash
+# MATRIX-YTD
+
+A powerful, interactive music and video downloader for YouTube, TikTok, Instagram, Twitter, and Facebook with a beautiful terminal interface.  
+Built for Termux (Android) and Linux, with features like MP3 conversion, playlist support, and more!
+
+---
+
+## ✨ Features
+
+- Download from:
+  - **YouTube** (videos, playlists, audio)
+  - **TikTok** (public videos)
+  - **Instagram** (reels, posts, stories)
+  - **Twitter/X** (public videos)
+  - **Facebook** (public videos)
+- Convert WebM to MP3
+- Play downloaded audio (in Termux)
+- Colorful, animated terminal interface
+- Automatic dependency installation
+- Works on Android (Termux) and Linux
+
+---
+
+## 🚀 Installation
+
+1. **Install Termux** (if on Android):  
+   [Get Termux from F-Droid](https://f-droid.org/packages/com.termux/)
+
+2. **Clone this repository:**
+
 git clone https://github.com/Matri199/Matrix-YTD.git
+
 cd Matrix-YTD
-python3 tron.py
-The script will check and install all dependencies automatically.
 
-🕹️ Usage
-Choose a download option from the menu (YouTube HD, 1080p, 720p, MP3, TikTok, Instagram, Twitter, Facebook, etc.).
 
-Paste your link or video ID when prompted.
+3. **Run the script:**
 
-Follow the prompts to save or play your download.
+python matrix.py
 
-Downloads are saved to:
-/sdcard/TRON MUSIC DOWNLOAD/ (on Android/Termux)
+> The script will check and install all dependencies automatically.
 
-✅ Supported Sites
-Platform	Supported?	Notes
-YouTube	✅	Videos, playlists, audio
-TikTok	✅	Public videos
-Instagram	✅	Reels, posts, stories (public)
-Twitter/X	✅	Public videos
-Facebook	✅	Public videos
-For more, see the yt-dlp supported sites list.
+---
 
-⚠️ Troubleshooting
-Errors?
+## 🕹️ Usage
 
-Make sure you are using the latest yt-dlp:
+1. **Choose a download option** from the menu (YouTube HD, 1080p, 720p, MP3, TikTok, Instagram, Twitter, Facebook, etc.).
+2. **Paste your link or video ID** when prompted.
+3. **Follow the prompts** to save or play your download.
 
-bash
-pip install -U yt-dlp
-Some sites may block downloads, require login, or change their backend frequently.
+**Downloads are saved to:**  
+`/sdcard/MATRIX YTD/` (on Android/Termux)
 
-Always update dependencies regularly.
+---
 
-🛠️ Dependencies
-Python 3
+## 📋 Supported Sites
 
-yt-dlp
+| Platform    | Supported? | Notes                                         |
+|-------------|------------|-----------------------------------------------|
+| YouTube     | ✅         | Videos, playlists, audio                      |
+| TikTok      | ✅         | Public videos                                 |
+| Instagram   | ✅         | Reels, posts, stories (public)                |
+| Twitter/X   | ✅         | Public videos                                 |
+| Facebook    | ✅         | Public videos                                 |
 
-ffmpeg
+> For more, see the [yt-dlp supported sites list](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
 
-colorama
+---
 
-tqdm
+## ⚠️ Troubleshooting
 
-mutagen
+- **Errors:**  
+- Make sure you are using the latest yt-dlp (`pip install -U yt-dlp`)
+- Some sites may block downloads, require login, or change their backend frequently.
 
-pydub
+---
 
-termux-api (for Android audio playback)
+## 🛠️ Dependencies
 
-Auto-installed on first run. You can also install manually.
+- Python 3
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- ffmpeg
+- colorama
+- tqdm
+- mutagen
+- pydub
+- termux-api (for audio playback in Termux)
 
-✨ Tips
-Use Termux on Android and grant storage access.
+The script will install these automatically, but you can also install them manually.
 
-Keep yt-dlp updated for best compatibility.
+---
 
-For private or age-restricted content, use cookies or login.
+## 💡 Tips
 
-🤝 Contributing
-Pull requests are welcome. For major changes, open an issue first to discuss your idea.
+- For **private or age-restricted content**, yt-dlp may require cookies or login.
+- Always keep yt-dlp up to date for best compatibility.
+- For best results on Android, use **Termux** and grant storage permissions.
 
-📜 License
+---
+
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome!  
+Please open an issue for bugs or feature requests.
+
+---
+
+## 📜 License
+
 MIT License
 
-👤 Author
-Telegram: @tron_iptv
+---
 
-GitHub: Matri199
+## 👤 Author
 
-Give this repo a ⭐ if you find it useful!
+- Telegram: [@MatriXXXXXXXXX](https://t.me/MatriXXXXXXXXX)
+- WhatsApp: [@Angel](https://t.me/233593734312)
+- GitHub: [Matri199](https://github.com/Matri199)
 
-Enjoy downloading with MATRIX-YTD!
+---
 
-Just copy all of the above into your README.md file.
-It will look great on GitHub, and the code blocks will have a "Copy" button!
+**Enjoy downloading with MATRIX-YTD!**
