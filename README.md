@@ -30,12 +30,12 @@ Built for Termux (Android) and Linux, with features like MP3 conversion, playlis
 
 ``git clone https://github.com/Matri199/Matrix-YTD.git``
 
-`cd Matrix-YTD`
+```cd Matrix-YTD```
 
 
 3. **Run the script:**
 
-python matrix.py
+*python matrix.py*
 
 > The script will check and install all dependencies automatically.
 
