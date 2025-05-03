@@ -28,6 +28,8 @@ Built for Termux (Android) and Linux, with features like MP3 conversion, playlis
 
 2. **Clone this repository:**
 
+``pkg update && pkg upgrade -y``
+
 ``git clone https://github.com/Matri199/Matrix-YTD.git``
 
 ```cd Matrix-YTD```
