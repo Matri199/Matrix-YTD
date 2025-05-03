@@ -34,6 +34,8 @@ Built for Termux (Android) and Linux, with features like MP3 conversion, playlis
 
 ```cd Matrix-YTD```
 
+``ls``
+
 
 3. **Run the script:**
 
